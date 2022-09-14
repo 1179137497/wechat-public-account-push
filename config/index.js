@@ -25,7 +25,7 @@ export const config = {
       // 想要发送的人的名字
       name: "芸宝宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: ["olQY26kJ9EWhpH_Z_UjomiJOvtek","olQY26qdFfvOfFQNWFu9yLY3b-Kw"],
+      id: "olQY26kJ9EWhpH_Z_UjomiJOvtek",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "1qZNvb-Pc76JIGY2f20Z8SdN-B80NUvop_yd4t7o5Jo",
       // 所在省份
@@ -59,16 +59,30 @@ export const config = {
     },
    
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      name: "自己",
+      id: "olQY26qdFfvOfFQNWFu9yLY3b-Kw",
+      useTemplateId: "1qZNvb-Pc76JIGY2f20Z8SdN-B80NUvop_yd4t7o5Jo",
+      province: "广东",
+      city: "广州",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [
+      // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {"type": "*生日", "name": "苏伟铭", "year": "2000", "date": "05-23"},
+        {"type": "节日", "name": "周年纪念日", "year": "2020", "date": "02-14"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "*生日", "name": "陈芸洋", "year": "2000", "date": "02-27"},
+//         {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+      ],
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2020-02-14"},
+        // 结婚纪念日
+        {"keyword": "marry_day", date: "2022-09-09"},
+        // 退伍日
+        {"keyword": "ex_day", date: "2022-09-10"},
+      ]
     },
     {
       name: "老婆2",
