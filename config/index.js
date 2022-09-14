@@ -25,7 +25,7 @@ export const config = {
       // 想要发送的人的名字
       name: "芸宝宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: ["olQY26qdFfvOfFQNWFu9yLY3b-Kw","olQY26kJ9EWhpH_Z_UjomiJOvtek"]
+      id: ["olQY26qdFfvOfFQNWFu9yLY3b-Kw","olQY26kJ9EWhpH_Z_UjomiJOvtek"],
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "pXulAYFi9C4NQ6q3X65H4OXJR1rR10b2o6Xbks-LFlY",
       // 所在省份
